@@ -1,6 +1,14 @@
 # simple-tictactoe
 simple game made in c++
 
+![obraz](https://user-images.githubusercontent.com/112971938/196202968-e0086e0f-7207-476c-b805-1a83ffa857eb.png)
+
+<h1>what does the board look like?</h1>
+
+![obraz](https://user-images.githubusercontent.com/112971938/196203834-5eb7f251-18fa-4179-a110-4764d069faf6.png)
+
+well, if you want to select the first field, write 0, not 1. the same way if you want the last field, do not write 9, but 8, because the range is 0 to 8.
+
 <h1>Who is who?</h1>
 so player A will be 2 and player B will be 3 on the board
 
