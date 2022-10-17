@@ -9,7 +9,7 @@ so player A will be 2 and player B will be 3 on the board
 <h1>how to win?</h1>
 you must have the same numbers in one column or row (also counts on the slant)
 
-![obraz](https://user-images.githubusercontent.com/112971938/196198195-2ec6313a-15ff-44da-8047-1beaeb27d7cb.png)
+![obraz](https://user-images.githubusercontent.com/112971938/196201606-b59ce7d8-2156-481e-9e39-127fd1f96f8f.png)
 
 ![obraz](https://user-images.githubusercontent.com/112971938/196198324-2ad42ec0-6e6d-407f-9362-d4e7e164e986.png)
 
