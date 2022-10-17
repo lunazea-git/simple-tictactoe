@@ -1,6 +1,3 @@
-//tic tac toe by lunazea v1.0
-//github -> https://github.com/lunazea-git/
-
 #include <iostream>
 
 int fields[9] = { 0,0,0,0,0,0,0,0,0 }; //fields of the board
@@ -18,52 +15,71 @@ void checking() {
     //checking vertically for player A and B
     for (int o = 0; o < 3; o++) {
 
-        if (fields[o] == fields[o + 3] && fields[o + 3] == fields[o + 6] && fields[o + 6] == 2)
-            std::cout << "\nA win";
+        if (fields[o] == fields[o + 3] && fields[o + 3] == fields[o + 6] && fields[o + 6] == 2){
+            std::cout << "\nA win\n";
+            system("pause");
+    }
         else
             tie_chek += 10;
 
-        if (fields[o] == fields[o + 3] && fields[o + 3] == fields[o + 6] && fields[o + 6] == 3)
-            std::cout << "\nB win";
+        if (fields[o] == fields[o + 3] && fields[o + 3] == fields[o + 6] && fields[o + 6] == 3){
+            std::cout << "\nB win\n";
+            system("pause");
+    }
         else
             tie_chek += 10;
     }
     //checking horizontally for player A and B
     for (int o = 0; o < 3; o += 3) {
 
-        if (fields[o] == fields[o + 1] && fields[o + 1] == fields[o + 2] && fields[o + 2] == 2)
-            std::cout << "\nA win";
-        else     
+        if (fields[o] == fields[o + 1] && fields[o + 1] == fields[o + 2] && fields[o + 2] == 2) {
+            std::cout << "\nA win\n";
+            system("pause");
+    }
+        else
             tie_chek += 10;
 
-        if (fields[o] == fields[o + 1] && fields[o + 1] == fields[o + 2] && fields[o + 2] == 3)
-            std::cout << "\nB win";
+        if (fields[o] == fields[o + 1] && fields[o + 1] == fields[o + 2] && fields[o + 2] == 3){
+            std::cout << "\nB win\n";
+            system("pause");
+    }
         else
             tie_chek += 10;
     }
     //checking on a slant v1
-    if (fields[2] == 3 && fields[4] == 3 && fields[6] == 3)
-        std::cout << "\nB win";
+    if (fields[2] == 3 && fields[4] == 3 && fields[6] == 3){
+        std::cout << "\nB win\n";
+        system("pause");
+}
     else
         tie_chek += 10;
-    if (fields[2] == 2 && fields[4] == 2 && fields[6] == 2)
-        std::cout << "\nA win";
+    if (fields[2] == 2 && fields[4] == 2 && fields[6] == 2){
+        std::cout << "\nA win\n";
+        system("pause");
+}
     else
         tie_chek += 10;
     //checking on a slant v2
-    if (fields[0] == 3 && fields[4] == 3 && fields[8] == 3)
-        std::cout << "\nB win";
+    if (fields[0] == 3 && fields[4] == 3 && fields[8] == 3){
+        std::cout << "\nB win\n";
+        system("pause");
+}
     else
         tie_chek += 10;
         
-    if (fields[0] == 2 && fields[4] == 2 && fields[8] == 2)
+    if (fields[0] == 2 && fields[4] == 2 && fields[8] == 2) {
+
         std::cout << "\nA win\n";
+        system("pause");
+    }
     else
         tie_chek += 10;
 
     //checking the tie
-    if (tie_chek == 120)
-        std::cout << "\n\nT I E.try again ;/";
+    if (tie_chek == 120) {
+        std::cout << "\n\nT I E.try again ;/\n";
+        system("pause");
+    }
 }
 
 void nickname() {
@@ -107,7 +123,6 @@ void game() {
         } while (fields[player_selection_b] != 0);
         fields[player_selection_b] += 3;
 
-
         table();
     }
     checking();
@@ -131,5 +146,4 @@ void start() {
 
 int main() {
     start();
-    
 }
