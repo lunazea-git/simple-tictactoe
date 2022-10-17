@@ -11,7 +11,7 @@ you must have the same numbers in one column or row (also counts on the slant)
 
 ![obraz](https://user-images.githubusercontent.com/112971938/196201606-b59ce7d8-2156-481e-9e39-127fd1f96f8f.png)
 
-![obraz](https://user-images.githubusercontent.com/112971938/196201947-eb0140f4-8353-43ba-976f-153e9116e4d0.png)
+![obraz](https://user-images.githubusercontent.com/112971938/196202244-2e313771-7884-4593-9fd9-3132009e951c.png)
 
 ![obraz](https://user-images.githubusercontent.com/112971938/196198652-04380f66-23e6-4c99-b675-18ec11395a85.png)
 
