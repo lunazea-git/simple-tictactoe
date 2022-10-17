@@ -4,7 +4,7 @@ simple game made in c++
 <h1>Who is who?</h1>
 so player A will be 2 and player B will be 3 on the board
 
-![obraz](https://user-images.githubusercontent.com/112971938/196197856-c9eed624-d780-480e-aec9-571d73c6c690.png)
+![obraz](https://user-images.githubusercontent.com/112971938/196201059-111d425b-c64c-4a9d-a3c4-1561d7727462.png)
 
 <h1>how to win?</h1>
 you must have the same numbers in one column or row (also counts on the slant)
