@@ -1,9 +1,5 @@
 # simple-tictactoe
-Very easy tic tac toe to play with friends
-
-<h1>simple game made in c++</h1>
-
-![obraz](https://user-images.githubusercontent.com/112971938/196196872-aa24358a-637c-43a6-a3c3-d9fcd3a4f5e8.png)
+simple game made in c++
 
 <h1>Who is who?</h1>
 so player A will be 2 and player B will be 3 on the board
